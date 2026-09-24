@@ -1,0 +1,33 @@
+{
+  "extName": { "message": "Login Helper for mautrix bridges" },
+  "extDescription": { "message": "Unofficial. Reads your own login token from an open tab and builds the login command for a mautrix bridge. Sends nothing." },
+  "popupTitle": { "message": "mautrix bridge login helper" },
+  "getButton": { "message": "Get login command" },
+  "detected": {
+    "message": "Detected: $SERVICE$ → $BRIDGE$",
+    "placeholders": { "service": { "content": "$1" }, "bridge": { "content": "$2" } }
+  },
+  "readyHint": { "message": "Make sure you are signed in on this tab, then press the button." },
+  "unsupportedTab": {
+    "message": "Open a supported service in this tab first: $SERVICES$",
+    "placeholders": { "services": { "content": "$1" } }
+  },
+  "permissionDenied": {
+    "message": "Access to $SERVICE$ was not granted. Press the button again and choose Allow.",
+    "placeholders": { "service": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Something went wrong: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "copy": { "message": "Copy" },
+  "copied": { "message": "Copied" },
+  "maskedNote": { "message": "Only the first and last 4 characters of each value are shown. Copy puts the full command on the clipboard." },
+  "copyFailed": { "message": "Couldn't copy. Close this popup, open it again and retry." },
+  "prefixNote": { "message": "Send it in your direct chat (management room) with the bridge bot. In any other room, add the bridge's command prefix in front, e.g. \"!slack login token ...\". The bot deletes the message after reading it." },
+  "safetyNote": { "message": "Nothing is sent anywhere. The full values give complete access to your account: paste them only to your own bridge bot." },
+  "unofficialNote": { "message": "Unofficial tool, not affiliated with Slack or the mautrix project." },
+  "slack_ok": { "message": "Done. Copy the command for the workspace you want to bridge and send it to your mautrix-slack bot." },
+  "slack_noToken": { "message": "Couldn't find a Slack token. Open Slack in the browser (app.slack.com), sign in, reload the page and try again." },
+  "slack_noCookie": { "message": "Couldn't read the \"d\" cookie. Make sure you are signed in to Slack in this browser profile." }
+}

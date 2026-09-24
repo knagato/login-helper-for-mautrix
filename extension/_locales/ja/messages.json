@@ -1,0 +1,33 @@
+{
+  "extName": { "message": "Login Helper for mautrix bridges" },
+  "extDescription": { "message": "非公式。開いているタブから自分のログイン用トークンを読み取り、mautrix ブリッジのログインコマンドを組み立てます。外部には何も送信しません。" },
+  "popupTitle": { "message": "mautrix ブリッジ ログインヘルパー" },
+  "getButton": { "message": "ログインコマンドを取得" },
+  "detected": {
+    "message": "検出: $SERVICE$ → $BRIDGE$",
+    "placeholders": { "service": { "content": "$1" }, "bridge": { "content": "$2" } }
+  },
+  "readyHint": { "message": "このタブでサインインしていることを確認してから、ボタンを押してください。" },
+  "unsupportedTab": {
+    "message": "対応サービスのタブを開いてから使ってください: $SERVICES$",
+    "placeholders": { "services": { "content": "$1" } }
+  },
+  "permissionDenied": {
+    "message": "$SERVICE$ へのアクセスが許可されませんでした。もう一度ボタンを押し、「許可」を選んでください。",
+    "placeholders": { "service": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "エラーが発生しました: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "copy": { "message": "コピー" },
+  "copied": { "message": "コピーしました" },
+  "maskedNote": { "message": "画面には各値の先頭と末尾の4文字だけを表示しています。「コピー」を押すと、伏せていないコマンドがクリップボードに入ります。" },
+  "copyFailed": { "message": "コピーできませんでした。この画面を閉じて開き直し、もう一度試してください。" },
+  "prefixNote": { "message": "ブリッジ bot とのダイレクトチャット（管理ルーム）に送ってください。それ以外のルームでは、先頭にブリッジのコマンド接頭辞を付けます（例: 「!slack login token ...」）。bot は読み取ったあとメッセージを削除します。" },
+  "safetyNote": { "message": "外部には何も送信しません。値はあなたのアカウントそのものと同じ権限を持つため、自分のブリッジ bot 以外には絶対に貼り付けないでください。" },
+  "unofficialNote": { "message": "非公式のツールです。Slack 社および mautrix プロジェクトとは関係ありません。" },
+  "slack_ok": { "message": "取得できました。つなぎたいワークスペースのコマンドをコピーして、mautrix-slack の bot に送ってください。" },
+  "slack_noToken": { "message": "Slack のトークンが見つかりませんでした。ブラウザで Slack（app.slack.com）を開いてサインインし、ページを再読み込みしてから再試行してください。" },
+  "slack_noCookie": { "message": "「d」Cookie を読み取れませんでした。このブラウザのプロファイルで Slack にサインインしているか確認してください。" }
+}
