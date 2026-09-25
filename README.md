@@ -27,7 +27,7 @@ still recommends manual token login.
 
 ## Install
 
-- Chrome Web Store: _link will be added after review_
+- Chrome Web Store: unlisted. Ask the maintainer for the link.
 - Microsoft Edge: open the Chrome Web Store link, choose **Allow extensions from other stores**, then
   **Get**.
 

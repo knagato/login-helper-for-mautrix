@@ -103,7 +103,7 @@ Used with activeTab to run one function in the Slack tab that reads localStorage
 
 cookies:
 ```
-mautrix-slack's token login also needs the "d" cookie for slack.com. It is HttpOnly, so it cannot be read from the page; the extension reads only this one cookie with chrome.cookies.get and shows it in the popup.
+mautrix-slack's token login also needs the "d" cookie for slack.com. It is HttpOnly, so it cannot be read from the page; the extension reads only this one cookie with chrome.cookies.get and puts it into the login command, which the popup shows masked and copies to the clipboard.
 ```
 
 Host permission（https://*.slack.com/*、optional）:
@@ -140,17 +140,17 @@ https://github.com/knagato/mautrix-login-helper/blob/main/PRIVACY.md
 | 地域 | すべての地域 |
 | 価格 | 無料 |
 
-## 5. 審査担当者向けのテスト手順（Test instructions 欄があれば）
+## 5. テスト手順（「追加の手順」欄、500文字以内。ユーザー名とパスワードは空欄）
 
 ```
 No bridge server or special account is needed to check the behavior.
 1. Sign in to any Slack workspace at https://app.slack.com (a free workspace is fine).
 2. Click the extension icon, then "Get login command". Allow access to slack.com when asked.
 3. The popup shows one masked "login token xoxc***1a2b xoxd***3c4d" line per signed-in workspace, with a Copy button that copies the full command.
-The extension makes no network requests; this can be confirmed in the Network tab of the popup's DevTools (right-click the popup → Inspect).
+It makes no network requests (right-click the popup → Inspect → Network).
 ```
 
 ## 6. 公開後
 
-- [ ] README の「Install」にストアの URL を書く
+- [x] 2026-09-26 公開。限定公開なので README にはストアの URL を書かない（利用者には個別に案内する）
 - [ ] 版を上げるときは `extension/manifest.json` の `version` を上げ、`./build.sh` → アップロード（毎回審査あり）
