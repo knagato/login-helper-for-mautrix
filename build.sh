@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Package extension/ into dist/mautrix-login-helper-<version>.zip for the Chrome Web Store.
+# Package extension/ into dist/login-helper-for-mautrix-<version>.zip for the Chrome Web Store.
 #
 #   ./build.sh
 #
@@ -10,7 +10,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-NAME=mautrix-login-helper
+NAME=login-helper-for-mautrix
 DIST=$PWD/dist
 
 python3 - <<'PY'

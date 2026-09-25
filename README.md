@@ -63,7 +63,7 @@ No network requests are made, no data is stored, and there is no analytics. See
 
 ```bash
 # Load unpacked: chrome://extensions → Developer mode → Load unpacked → extension/
-./build.sh                     # checks + dist/mautrix-login-helper-<version>.zip for the store
+./build.sh                     # checks + dist/login-helper-for-mautrix-<version>.zip for the store
 node tests/test-popup.mjs      # unit tests + the real popup in headless Chrome (no token on screen)
 python3 tools/screenshot.py    # store/images/*.png (needs Google Chrome)
 python3 tools/make-icons.py    # extension/icons/*.png (needs Pillow)

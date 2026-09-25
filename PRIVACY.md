@@ -36,7 +36,7 @@ extension. You can revoke it at any time from the extension's details page in yo
 ## Changes and contact
 
 Changes to this policy are published in this file in the repository. Questions:
-<https://github.com/knagato/mautrix-login-helper/issues>
+<https://github.com/knagato/login-helper-for-mautrix/issues>
 
 ---
 
@@ -75,4 +75,4 @@ Changes to this policy are published in this file in the repository. Questions:
 ## 変更と問い合わせ
 
 本ポリシーの変更は、リポジトリのこのファイルで公開します。問い合わせ:
-<https://github.com/knagato/mautrix-login-helper/issues>
+<https://github.com/knagato/login-helper-for-mautrix/issues>

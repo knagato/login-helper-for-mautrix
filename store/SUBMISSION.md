@@ -8,11 +8,11 @@ Developer Dashboard の各欄に貼る内容。英語が既定の掲載、日本
 - [ ] Developer Dashboard に登録（初回 $5）。Google アカウントは 2 段階認証が必須
 - [ ] 連絡先メールアドレスを確認済みにする（審査結果・違反通知が届く）
 - [ ] 事業者かどうかの申告（EU DSA）: 無料の個人ツールなので「非事業者（non-trader）」
-- [ ] 公開リポジトリ `knagato/mautrix-login-helper` が公開済みで、`PRIVACY.md` が見られる
+- [ ] 公開リポジトリ `knagato/login-helper-for-mautrix` が公開済みで、`PRIVACY.md` が見られる
 
 ## 1. パッケージ
 
-`./build.sh` → `dist/mautrix-login-helper-<version>.zip` をアップロード。
+`./build.sh` → `dist/login-helper-for-mautrix-<version>.zip` をアップロード。
 
 ## 2. ストア掲載情報（Store listing）
 
@@ -37,7 +37,7 @@ Privacy
 - Tokens are never shown in full: the popup shows only the first and last 4 characters, and the full command goes only to the clipboard. Safe for screenshots and screen sharing.
 - Nothing is sent anywhere, nothing is stored, no analytics.
 - Access to slack.com is an optional permission requested only when you use it.
-- Source code: https://github.com/knagato/mautrix-login-helper
+- Source code: https://github.com/knagato/login-helper-for-mautrix
 
 The command gives full access to your Slack account. Only send it to your own bridge bot.
 
@@ -63,7 +63,7 @@ mautrix-slack のトークンログインには、ブラウザにある 2 つの
 - トークンは画面に全体を表示しません。先頭と末尾の4文字だけを出し、伏せていないコマンドはクリップボードにだけ入ります。スクリーンショットや画面共有にも写りません。
 - 外部への送信、保存、解析は一切しません。
 - slack.com へのアクセスは任意の権限で、使うときにだけ求めます。
-- ソースコード: https://github.com/knagato/mautrix-login-helper
+- ソースコード: https://github.com/knagato/login-helper-for-mautrix
 
 コマンドは Slack アカウントそのものと同じ権限を持ちます。自分のブリッジ bot 以外には送らないでください。
 
@@ -77,8 +77,8 @@ mautrix-slack のトークンログインには、ブラウザにある 2 つの
 | アイコン | `extension/icons/icon-128.png` |
 | スクリーンショット | `store/images/screenshot-en.png`（日本語の掲載には `screenshot-ja.png`） |
 | 小さいプロモーション タイル | `store/images/promo-440x280.png` |
-| ホームページ URL | `https://github.com/knagato/mautrix-login-helper` |
-| サポート URL | `https://github.com/knagato/mautrix-login-helper/issues` |
+| ホームページ URL | `https://github.com/knagato/login-helper-for-mautrix` |
+| サポート URL | `https://github.com/knagato/login-helper-for-mautrix/issues` |
 | 成人向けコンテンツ | いいえ |
 
 ## 3. プライバシー（Privacy practices）
@@ -129,7 +129,7 @@ Required by the cookies API to read the "d" cookie for slack.com. Declared as an
 **プライバシーポリシー URL**
 
 ```
-https://github.com/knagato/mautrix-login-helper/blob/main/PRIVACY.md
+https://github.com/knagato/login-helper-for-mautrix/blob/main/PRIVACY.md
 ```
 
 ## 4. 配布（Distribution）

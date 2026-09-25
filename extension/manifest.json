@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "short_name": "mautrix login",
-  "version": "1.0.0",
+  "short_name": "Login Helper",
+  "version": "1.0.1",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
-  "homepage_url": "https://github.com/knagato/mautrix-login-helper",
+  "homepage_url": "https://github.com/knagato/login-helper-for-mautrix",
   "permissions": [
     "activeTab",
     "scripting",
